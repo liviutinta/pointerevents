@@ -431,7 +431,7 @@ interface PointerEvent : MouseEvent {
                     If <code>azimuth</code> and <code>altitude</code> are provided, the user agent MUST initialize <code>tiltX</code>, <code>tiltY</code>
                     with the calculated values rounded to the nearest integer value. For values falling exactly midway between integers, the user agend MUST always round up.
                     </p>
-                    <p>If only one of the two attributes are provided, the other attribute MUST be initialized to the default value.</p>
+                    <p>If only the value of one of the two attributes is provided, the other attribute MUST be initialized to the default value.</p>
                 </div>
 
                 <p>A <a>PointerEvent</a> has an associated <dfn>coalesced event list</dfn> (a list of
